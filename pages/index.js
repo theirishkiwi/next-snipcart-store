@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { FaShoppingCart } from 'react-icons/fa';
+import logo from '../public/logo.svg'
 
 import styles from '../styles/Home.module.css'
 
@@ -23,7 +24,7 @@ export default function Home() {
             Picked Organic
           </h1>
     
-          <img src="/public/logo.svg" alt="Picked Organic" style="width: 200px;">
+          <img src={logo} alt="Picked Organic" style="width: 200px;" />
     
           <p className={styles.description}>
             <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
