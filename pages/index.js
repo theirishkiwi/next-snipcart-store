@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Picked Organic Market Garden</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://app.snipcart.com" />
