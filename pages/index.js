@@ -20,7 +20,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.header}>
           <h1 className={styles.title}>
-            Snipcart Store
+            Picked Organic
           </h1>
 
           <p className={styles.description}>
@@ -58,7 +58,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        &copy; Snipcart Store
+        &copy; Picked Organic 2020
       </footer>
 
       <script async src="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.js" />
