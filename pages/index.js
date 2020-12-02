@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 import { FaShoppingCart } from 'react-icons/fa';
 
@@ -21,7 +20,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.header}>
-          <Image src="/logo.svg" alt="Picked Organic" width="200" height="64" />
+          <img src="/logo.svg" alt="Picked Organic" width="200" height="64" />
           <h1 className={styles.title}>
             Picked Organic
           </h1>
