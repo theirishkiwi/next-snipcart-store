@@ -2,14 +2,14 @@
   {
     "title": "Christmas Veg Box - Small",
     "id": "sticker_logo",
-    "description": "A Small Veg Boox full of Seasonal Veg!",
+    "description": "A Small Veg Box full of Seasonal Veg!",
     "price": "20.00",
     "image": "/images/small.png"
   },
   {
     "title": "Chrismas Veg Box - Large",
     "id": "sticker_logo_pack",
-    "description": "A Large Veg Boox full of Seasonal Veg!",
+    "description": "A Large Veg Box full of Seasonal Veg!",
     "price": "30.00",
     "image": "/images/large.png"
   }
