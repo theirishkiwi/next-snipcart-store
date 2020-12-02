@@ -27,7 +27,7 @@ export default function Home() {
             <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
               <FaShoppingCart />
               <strong className="sr-only">Cart</strong>
-              <span className="snipcart-total-price">$0.00</span>
+              <span className="snipcart-total-price">£0.00</span>
             </a>
           </p>
         </div>
@@ -36,10 +36,10 @@ export default function Home() {
           {products.map(product => {
             return (
               <div key={product.id} className={styles.card}>
-                <img src={product.image} alt={`Preview of ${product.title}`} />
+                <img src={product.image} alt={`Preview of £{product.title}`} />
                 <h3>{ product.title }</h3>
                 <p className={styles.cardDescription}>{ product.description }</p>
-                <p>${ product.price }</p>
+                <p>£{ product.price }</p>
                 <p>
                   <button className="snipcart-add-item"
                     data-item-id={product.id}
