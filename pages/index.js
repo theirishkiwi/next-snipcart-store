@@ -19,10 +19,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.header}>
-         <h1 className={styles.title}>
+          <h1 className={styles.title}>
             Picked Organic
           </h1>
-    
+
           <p className={styles.description}>
             <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
               <FaShoppingCart />
