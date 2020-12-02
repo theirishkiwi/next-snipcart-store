@@ -21,9 +21,6 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.header}>
           <img src="/logo.svg" alt="Picked Organic" width="200" height="64" />
-          <h1 className={styles.title}>
-            Picked Organic
-          </h1>
 
           <p className={styles.description}>
             <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
