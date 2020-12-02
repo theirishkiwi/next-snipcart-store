@@ -23,8 +23,6 @@ export default function Home() {
             Picked Organic
           </h1>
     
-          <img src="/logo.svg" alt="Picked Organic" style="width: 200px;" />
-    
           <p className={styles.description}>
             <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
               <FaShoppingCart />
