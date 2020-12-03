@@ -46,7 +46,7 @@ export default function Home() {
                     data-item-name={product.title}
                     data-item-url="/"
                     data-item-price={product.price}
-                    data-item-custom1-name="Notes/Requests"
+                    data-item-custom1-name="Notes/Special Requests"
                   >
                     Add to Cart
                   </button>
