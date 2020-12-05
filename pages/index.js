@@ -53,6 +53,7 @@ export default function Home() {
                 <p className={styles.cardDescription}>{ product.description12 }</p>
                 <p><b>£{ product.price }</b></p>
                 <p>* order deadline midnight 17th December.</p>
+                <p>
                   <button className="snipcart-add-item"
                     data-item-id={product.id}
                     data-item-image={product.image}
