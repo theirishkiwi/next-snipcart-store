@@ -2,7 +2,8 @@
   {
     "title": "Organic Christmas Veg box",
     "id": "xmas_veg_box",
-    "description": "Containing:\\r2.5kg Charlotte potatoes\\r 1.5kg carrots\\r 1kg parsnips\\r 2 leeks\\n 1 swede, 1kg onions, 1 red cabbage, 1 cauliflower, 500g mushrooms, 1 brussel sprout stem, 1 bunch or parsley",
+    "description": "Containing:"
+    "description1": "2.5kg Charlotte potatoes, 1.5kg carrots, 1kg parsnips, 2 leeks, 1 swede, 1kg onions, 1 red cabbage, 1 cauliflower, 500g mushrooms, 1 brussel sprout stem, 1 bunch or parsley",
     "price": "30.00",
     "image": "/xmasvegbx_img.jpg"
   }
