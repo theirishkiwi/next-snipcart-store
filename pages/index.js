@@ -39,6 +39,17 @@ export default function Home() {
                 <img src={product.image} alt={`Preview of £{product.title}`} />
                 <h3>{ product.title }</h3>
                 <p className={styles.cardDescription}>{ product.description }</p>
+                <p className={styles.cardDescription}>{ product.description1 }</p>
+                <p className={styles.cardDescription}>{ product.description2 }</p>
+                <p className={styles.cardDescription}>{ product.description3 }</p>
+                <p className={styles.cardDescription}>{ product.description4 }</p>
+                <p className={styles.cardDescription}>{ product.description5 }</p>
+                <p className={styles.cardDescription}>{ product.description6 }</p>
+                <p className={styles.cardDescription}>{ product.description7 }</p>
+                <p className={styles.cardDescription}>{ product.description8 }</p>
+                <p className={styles.cardDescription}>{ product.description9 }</p>
+                <p className={styles.cardDescription}>{ product.description10 }</p>
+                <p className={styles.cardDescription}>{ product.description11 }</p>
                 <p>£{ product.price }</p>
                 <p>
                   <button className="snipcart-add-item"
