@@ -37,7 +37,7 @@ export default function Home() {
             return (
               <div key={product.id} className={styles.card}>
                 <img src={product.image} alt={`Preview of £{product.title}`} />
-                <h4>{ product.title }</h4>
+                <h6>{ product.title }</h6>
                 <h4 className={styles.cardDescription}>{ product.description }</h4>
                 <p className={styles.cardDescription}>{ product.description1 }</p>
                 <p className={styles.cardDescription}>{ product.description2 }</p>
