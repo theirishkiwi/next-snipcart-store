@@ -64,7 +64,7 @@ export default function Home() {
                   >
                     Add to Cart
                   </button>
-                  <h6>* order deadline midnight 17th December.</h6>
+                  <h6><span style="color:red;">*</span> order deadline midnight 17th December.</h6>
                 </p>
               </div>
             );
