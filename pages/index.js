@@ -37,7 +37,7 @@ export default function Home() {
             return (
               <div key={product.id} className={styles.card}>
                 <img src={product.image} alt={`Preview of £{product.title}`} />
-                <h3>{ product.title }</h3>
+                <h4>{ product.title }</h4>
                 <h4 className={styles.cardDescription}>{ product.description }</h4>
                 <p className={styles.cardDescription}>{ product.description1 }</p>
                 <p className={styles.cardDescription}>{ product.description2 }</p>
@@ -52,7 +52,7 @@ export default function Home() {
                 <p className={styles.cardDescription}>{ product.description11 }</p>
                 <p className={styles.cardDescription}>{ product.description12 }</p>
                 <p><b>£{ product.price }</b></p>
-                <p>
+                <p>* order deadline midnight 17th December.</p>
                   <button className="snipcart-add-item"
                     data-item-id={product.id}
                     data-item-image={product.image}
