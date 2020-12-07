@@ -35,6 +35,9 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+          <div lassName={styles.img}>
+            <img src="/images/xmas_vegbox.jpg" alt="Christmas Organic Veg Box" width="640" height="480" />
+          </div>
           {products.map(product => {
             return (
               <div key={product.id} className={styles.card}>
