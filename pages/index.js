@@ -22,9 +22,7 @@ export default function Home() {
         <div className={styles.header}>
           <img src="/logo.svg" alt="Picked Organic" width="200" height="64" />
     
-          <div lassName={styles.img}>
-            <img src="/images/xmas_vegbox.jpg" alt="Christmas Organic Veg Box" width="640" height="480" />
-          </div>
+
 
           <p className={styles.description}>
             <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
