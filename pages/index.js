@@ -26,7 +26,7 @@ export default function Home() {
 
           <p className={styles.description}>
             <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
-              <img src="/images/xmas_vegbox.svg" width="100%" />
+              <img src="/images/xmas_vegbox.jpg" width="100%" />
     
               <strong className="sr-only">Cart</strong>
               <span className="snipcart-total-price">£0.00</span>
@@ -35,9 +35,9 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <div lassName={styles.img}>
-            <img src="/images/xmas_vegbox.jpg" alt="Christmas Organic Veg Box" width="100%" />
-          </div>
+          #<div lassName={styles.img}>
+          #  <img src="/images/xmas_vegbox.jpg" alt="Christmas Organic Veg Box" width="100%" />
+          #</div>
           {products.map(product => {
             return (
               <div key={product.id} className={styles.card}>
