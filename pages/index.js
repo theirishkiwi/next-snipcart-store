@@ -21,12 +21,10 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.header}>
           <img src="/logo.svg" alt="Picked Organic" width="200" height="64" />
-    
-
 
           <p className={styles.description}>
             <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
-              <img src="/veg-box.svg" width="30" />	            
+              <img src="/images/xmas_vegbox.jpg" width="30" />	            
     
               <strong className="sr-only">Cart</strong>
               <span className="snipcart-total-price">£0.00</span>
