@@ -26,7 +26,7 @@ export default function Home() {
 
           <p className={styles.description}>
             <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
-              <img src="/veg-box.svg" width="30" />
+              <img src="/xmas_vegbox.svg" width="100%" />
     
               <strong className="sr-only">Cart</strong>
               <span className="snipcart-total-price">£0.00</span>
