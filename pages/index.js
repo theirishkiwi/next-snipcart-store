@@ -65,7 +65,7 @@ export default function Home() {
                   >
                     Add to Cart
                   </button>
-                  <h6 style={{color: "red"}}>* order deadline midnight 17th December.</h6>
+                  <h6 style={{color: "red"}}>* orders must be in by midnight, <b>Wednesday 16th December</b>.</h6>
                 </p>
               </div>
             );
