@@ -65,7 +65,7 @@ export default function Home() {
                   >
                     Add to Cart
                   </button>
-                  <h6 style={{color: "red"}}>* orders must be in by midnight, <b>Wednesday 16th December</b>.</h6>
+                  <h6 style={{color: "red"}}>* orders are now CLOSED for Christmas 2020.</h6>
                 </p>
               </div>
             );
@@ -78,7 +78,7 @@ export default function Home() {
       </footer>
 
       <script async src="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.js" />
-      <div id="snipcart" data-api-key="NTBlYjIxMTctZTJhMy00OTViLWJmOGUtMjBhODE4OTBjNGIxNjM3MDI2MTI1Mjk1NTczMjAz" hidden></div>
+      <div id="snipcart" data-api-key="MmQ0ZmU2NDEtZjc4MS00NjBmLThlN2EtYjliYzVmYTQ4MGI3NjM3MDI2MTI1Mjk1NTczMjAz" hidden></div>
     </div>
   )
 }
