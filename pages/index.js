@@ -74,7 +74,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        &copy; Picked Organic 2020
+        &copy; Picked Organic 2021
       </footer>
 
       <script async src="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.js" />
